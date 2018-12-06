@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kc.dictionaryappbyart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Alliteration" />
+        <activity android:name=".Benevolent" />
+        <activity android:name=".Ambigious" />
+        <activity android:name=".Bypass" />
+        <activity android:name=".Capricious" />
+        <activity android:name=".Disposition" />
+        <activity android:name=".Empathy" />
+        <activity android:name=".Fervent" />
+        <activity android:name=".Gallivant" />
+        <activity android:name=".Hypnosis" />
+        <activity android:name=".Irony" />
+        <activity android:name=".Jurisdiction" />
+        <activity android:name=".Karma" />
+        <activity android:name=".Lucid" />
+        <activity android:name=".Misanthrope" />
+        <activity android:name=".Nostalgic" />
+        <activity android:name=".Optimistically" />
+        <activity android:name=".Paradigm" />
+        <activity android:name=".Quell" />
+        <activity android:name=".Tangible"></activity>
+    </application>
+
+</manifest>
